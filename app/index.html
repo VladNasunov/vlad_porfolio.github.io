@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<header class="header">
+    <div class="header__nav">
+        <a class="header__nav-item item" href="#anchor1">My projects</a>
+        <a class="header__nav-item item" data-modal-target="#modal" href="#">Contacts</a>
+        <a class="header__nav-switcher item" href="#">&#9680;</a>
+    </div>
+    <div class="header__text">
+        <div class="header__text-js"></div>
+        <a class="header__text-btn" href="#">
+            Vlad Nasunov
+        </a>
+    </div>
+    <button data-modal-target="#modal" class="header__about">About me >></button>
+    <div class="modal" id="modal">
+        <div class="modal__header">
+            <h3 class="title">About me</h3>
+            <button data-close-button class="close__button">&times;</button>
+        </div>
+        <div class="modal__body">
+            <p>I'm Vlad Nasunov, a 24 y.o. and i study Front-end development.</p>
+            <p>Half year ago i Fell in love with creating web-sites</p>
+            <p>I always study and improve my Hard Skills. Check out my projects down there.</p>
+            <h3 class="modal__skills">Skills</h3>
+            <p class="modal__skills-neon">HTML 5</p>
+            <p class="modal__skills-neon">CSS 3</p>
+            <p class="modal__skills-neon">SCSS</p>
+            <p class="modal__skills-neon">JavaScript</p>
+            <p class="modal__skills-neon">React JS (basics)</p>
+            <p class="modal__skills-neon">Gulp</p>
+            <h3 class="modal__contacts">Contacts</h3>
+            <p class="modal__contacts-neon">+7(999)203-27-86</p>
+            <p class="modal__contacts-neon">nasunovvladislav@gmail.com</p>
+        </div>
+    </div>
+    <div id="overlay"></div>
+    <div class="header__links">
+        <a class="header__link-git" href="https://github.com/VladNasunov">
+            <img class="git__img neon__link" src="img/git.png" alt="">
+        </a>
+        <a class="header__link-insta" href="https://www.instagram.com/vlad_nasunov/">
+            <img class="insta__img neon__link" src="img/insta.png" alt="">
+        </a>
+        <a class="header__link-email" href="mailto:nasunovvladislav@gmail.com">
+            <img class="email__img neon__link" src="img/email.png" alt="">
+        </a>
+    </div>
+</header>
+
+<body class="body">
+    <div class="contaier">
+        <div class="portfolio">
+            <h2 id="anchor1" class="portfolio__title">My Projects</h2>
+            <div class="portfolio__box">
+                <a class="portfolio__imgLink" href="https://vladNasunov.github.io/app/">
+                    <img class="portfolio__img" src="img/burgundy.png" alt="">
+                </a>
+            </div>
+            <div class="portfolio__box">
+                <a href="https://vladNasunov.github.io/photograper_web/">
+                    <img class="portfolio__img" src="img/photo.png"
+                        alt="">
+                </a>
+            </div>
+            <div class="portfolio__box">
+                <a href="https://vladnasunov.github.io/my-web/">
+                    <img class="portfolio__img" src="img/screen1.png"
+                        alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <span class="vertical__line-1"></span>
+    <span class="vertical__line-3"></span>
+    <footer class="footer">
+        <p class="footer__subtitle">© 2020 Copyright</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
